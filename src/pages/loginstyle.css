@@ -1,0 +1,81 @@
+/* Login.css */
+
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('./iiitbprofile.jpeg');
+    margin: 0; /* Adjust the path to your background image */
+    background-size: 100%;
+    background-position: top;
+  }
+  
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 200px;
+    padding: 12px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  
+    ::placeholder {
+      color: #999;
+    }
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007BFF;
+  }
+  
+  button {
+    font-size: 14px;
+    background-color: #00519b;
+    color: #fff;
+    padding: 12px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00447a;
+  }
+
+  .error-popup h2{
+    text-shadow: #fff;
+    text-decoration-color: red;
+    color: red;
+  }
+  
